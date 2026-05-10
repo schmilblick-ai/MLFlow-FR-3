@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 
 # Import Database
-data = pd.read_csv("fake_data.csv")
+data = pd.read_csv("data/fake_data.csv")
 X = data.drop(columns=["date", "demand"])
 y = data["demand"]
 X_train, X_val, y_train, y_val = train_test_split(

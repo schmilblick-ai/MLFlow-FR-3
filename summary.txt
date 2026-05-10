@@ -1,0 +1,11 @@
+Random Forest Trials Summary:
+---------------------------
+🏆 Best Experiment Name: Apple_Models1
+🎯 Best Run Name: sincere-perch-852
+
+Best Model Parameters:
+🌲 Number of Trees: 500
+📏 Max Tree Depth: None
+📎 Min Samples Split: 4
+🍂 Min Samples Leaf: 2
+📊 Best CV Score: -61.9777
