@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Mon script MLFlow",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "args": [
+                "--tracking_uri","http://127.0.0.1:8080",
+                "--experiment_name","Apple_Models" ,
+                "--model_name","apple_demand_predictor"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": false 
+
+        }
+    ]
+}
